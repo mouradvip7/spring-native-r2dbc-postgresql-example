@@ -19,8 +19,11 @@ execute the ressources/init.sql file in the database console
   `target/native-r2dbc`
   
 
+### HTTP request 
 
-make an HTTP GET request to "localhost:8080/api/v1/jobs/" and you should get a response containing one job at GOOGLE!
+`curl http://localhost:8080/api/v1/jobs/`
+
+you should get a response containing a job at GOOGLE!
 
 
   
